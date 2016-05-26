@@ -1,0 +1,15 @@
+input
+{
+    padding-right:1.6em;
+}
+
+input:invalid
+{
+    background: rgb(105,130,90) url(excl.svg) no-repeat right center;
+    background-size: 1.5em 1.5em;
+}
+input:valid
+{
+    background: rgb(105,130,90) url(good.svg) no-repeat right center; /* #E0FFE0 */
+    background-size: 1.5em 1.5em;
+}

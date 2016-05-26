@@ -3,10 +3,12 @@ header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json; charset=UTF-8");
 
 
-$outp = '[ {"name":"Philips 203p3","icon":"television.svg", "desc":"Найстарший телевізор у нашому магазині.", "price":234},'.
-          '{"name":"Eлектрон 2000","icon":"television-1.svg", "desc":"Старий та надійний", "price":511},'.
-          '{"name":"LG 1515c","icon":"monitor.svg", "desc":"Плазмовий телевізор нового покоління", "price":4233},'.
-          '{"name":"Sony PVCHI993 gray","icon":"computer-screen.svg", "desc":"Новітній рідкокристалічний розумний телевізор", "price":7030} ]';
+$outp = '[ {"name":"Дитячий візочок","icon":"baby-stroller.svg", "desc":"Іграшка для майбутніх мам", "price":325},'.
+          '{"name":"Замок","icon":"sand-castle.svg", "desc":"На випадок, коли немає піску, але дитина хоче замок", "price":90},'.
+          '{"name":"Качка для ванни","icon":"duckling.svg", "desc":"Класична качка, без якої не обходиться жодне купання", "price":35},'.
+          '{"name":"Машина","icon":"car.svg", "desc":"Крута машина для спарвжніх чоловіків", "price":37} ]';
+
+
 
 
 echo($outp);

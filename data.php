@@ -3,16 +3,16 @@
 
     echo "Testing database PDO connection...<br>";
 
-    $connstring = "Database=MariaData;Data Source=eu-cdbr-azure-north-e.cloudapp.net;User Id=bccdfe86c6dc86;Password=e416cfe8";
-    $user = "bccdfe86c6dc86";
-    $pass = "e416cfe8";
+    $connstring = "Database=SofiaData;Data Source=eu-cdbr-azure-north-e.cloudapp.net;User Id=b7579d5f362235;Password=7eb19a36";
+    $user = "b7579d5f362235";
+    $pass = "7eb19a36";
 
     // створення з’єднання з БД
 print("1.Connecting to database<br>");
 //$conn = new PDO( $connstring, $user, $pass );
 
 try {
-$conn = new PDO('mysql:host=eu-cdbr-azure-north-e.cloudapp.net;dbname=MariaData;charset=utf8','bccdfe86c6dc86','e416cfe8',
+$conn = new PDO('mysql:host=eu-cdbr-azure-north-e.cloudapp.net;User Id=b7579d5f362235;dbname=SofiaData;charset=utf8','b7579d5f362235','7eb19a36',
 array(PDO::ATTR_EMULATE_PREPARES => false));
 } catch (PDOException $e) {
  exit('error: '.$e->getMessage());

@@ -29,14 +29,14 @@ class UserTable
 
         if (!$connstring)
         {
-            $connstring = "sqlsrv:Server=tcp:us-cdbr-azure-southcentral-e.cloudapp.net, 3306;Database=animalsDB";
-            $user = "ba5562732328d8";
-            $pass = "56301ee5";
+          $connstring = "Database=SofiaData;Data Source=eu-cdbr-azure-north-e.cloudapp.net;User Id=b7579d5f362235;Password=7eb19a36";
+          $user = "b7579d5f362235";
+          $pass = "7eb19a36";
         }
-
+Database=MariaData;Data Source=eu-cdbr-azure-north-e.cloudapp.net;User Id=bccdfe86c6dc86;Password=e416cfe8
         try
         {
-            $this->conn = new PDO('mysql:host=us-cdbr-azure-southcentral-e.cloudapp.net;dbname=animalsDB;charset=utf8','ba5562732328d8','56301ee5',
+            $this->conn = new PDO('mysql:host=eu-cdbr-azure-north-e.cloudapp.net;User Id=b7579d5f362235;dbname=SofiaData;charset=utf8','b7579d5f362235','7eb19a36',
             array(PDO::ATTR_EMULATE_PREPARES => false));
             $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
        }

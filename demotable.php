@@ -5,13 +5,13 @@
     $connenv = getenv("SQLAZURECONNSTR_defaultConnection");
     parse_str(str_replace(";", "&", $connenv), $connarray);
 
-    $  $connstring = "sqlsrv:Server=tcp:us-cdbr-azure-southcentral-e.cloudapp.net, 3306;Database=animalsDB";
+    $  $connstring = "mysql:host=eu-cdbr-azure-north-e.cloudapp.net;dbname=MariaData;charset=utf8','bccdfe86c6dc86','e416cfe8";
       $user = "ba5562732328d8";
       $pass = "56301ee5";
 
     try
     {
-      conn = new PDO('mysql:host=us-cdbr-azure-southcentral-e.cloudapp.net;dbname=animalsDB;charset=utf8','ba5562732328d8','56301ee5',
+      conn = new PDO('mysql:host=eu-cdbr-azure-north-e.cloudapp.net;dbname=MariaData;charset=utf8','bccdfe86c6dc86','e416cfe8',
 
         //printCollations($conn);
 

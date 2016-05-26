@@ -1,0 +1,54 @@
+body{
+	background-color: rgb(190,170,240);
+	color: rgb(140,40,135);
+	font-size: 30px;
+}
+
+h1 {
+
+	color: rgb(120,45, 14);
+	font-size: 62px;
+	text-align: center;
+
+}
+
+div.container {
+	display: inline-block;
+
+
+	margin-right: 40px;
+	margin-left: 20px;
+
+	position: static;
+}
+ h5{
+ 	font-size: 26px;
+	 }
+
+
+ div.container img {
+
+ 	width: 45%;
+ 	height: 45%;
+ 	margin: 40px 40px 45px 45px;
+
+ }
+ div.container p {
+ 	font-size: 20px;
+ }
+
+ span{
+ 	font-size: 32px;
+ }
+
+ button {
+    background-color: rgb(160,50,70); /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
